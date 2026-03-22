@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { Navbar } from "./components/Navbar/Navbar";
+import { SocialBar } from "./components/SocialBar/SocialBar";
+import { ThemeProvider } from "./components/ThemeProvider/ThemeProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -12,7 +15,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ThemeProvider>
+          <Navbar />
+          <SocialBar />
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

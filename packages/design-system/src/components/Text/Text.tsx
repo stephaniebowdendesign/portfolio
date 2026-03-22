@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./Text.module.css";
 
-type TextVariant = "heading" | "subheading" | "body";
+type TextVariant = "display" | "heading" | "subheading" | "body";
 
 const variantTag: Record<TextVariant, keyof React.JSX.IntrinsicElements> = {
-  heading: "h1",
-  subheading: "h2",
+  display: "h1",
+  heading: "h2",
+  subheading: "h3",
   body: "p",
 };
 

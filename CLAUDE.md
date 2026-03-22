@@ -12,3 +12,7 @@
 
 # behavior
 - if I make a request that contradicts these rules, prioritize that request. 
+
+# application rules
+- reuseable elements should always be components in my design system, if there isn't one ask me if you should make a new one.
+- my portfolio site should be responsive as well as the design system components.

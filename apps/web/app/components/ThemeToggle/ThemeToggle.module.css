@@ -1,0 +1,31 @@
+.toggle {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  display: flex;
+  flex-direction: row;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+}
+
+.active {
+  background: var(--toggle-active-bg);
+  color: var(--toggle-active-text);
+  font-size: 0.6rem;
+  letter-spacing: 0.03em;
+  padding: 0.4rem 0.3rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.inactive {
+  background: none;
+  color: var(--text-muted);
+  font-size: 0.6rem;
+  letter-spacing: 0.03em;
+  padding: 0.4rem 0.3rem;
+  transition: background 0.2s, color 0.2s;
+}
