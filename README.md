@@ -1,4 +1,4 @@
 # Stephanie's Portfolio
 
 Hi Steph!
-Hiiii josh!
+Hi Josh!
