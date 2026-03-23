@@ -1,0 +1,20 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  transition: color 0.2s;
+}
+
+.button:hover {
+  color: var(--text-primary);
+}
+
+.arrow {
+  font-size: 1rem;
+  line-height: 1;
+}
