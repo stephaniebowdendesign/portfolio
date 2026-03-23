@@ -1,6 +1,6 @@
 import { Text } from "@design-system";
-import { ProjectTabs } from "./components/ProjectTabs/ProjectTabs";
-import styles from "./projects.module.css";
+import { ProjectTabs } from "../components/ProjectTabs/ProjectTabs";
+import styles from "../projects.module.css";
 
 export default function ProjectsLayout({ children }: { children: React.ReactNode }) {
   return (

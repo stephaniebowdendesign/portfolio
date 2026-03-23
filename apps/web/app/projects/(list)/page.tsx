@@ -1,5 +1,5 @@
 import { ProjectCard } from "@design-system";
-import styles from "./projects.module.css";
+import styles from "../projects.module.css";
 
 const PROJECTS = [
   {
@@ -10,6 +10,7 @@ const PROJECTS = [
     placeholderStyle: {
       background: "linear-gradient(135deg, #3b1fd4 0%, #7c3aed 50%, #c026d3 100%)",
     },
+    href: "/projects/ascent-design-system",
   },
   {
     title: "Data Visualization",
@@ -19,6 +20,7 @@ const PROJECTS = [
     placeholderStyle: {
       background: "linear-gradient(135deg, #f4956a 0%, #e8799a 55%, #b85fc4 100%)",
     },
+    href: "/projects/data-visualization",
   },
   {
     title: "Customer Support",
@@ -28,6 +30,7 @@ const PROJECTS = [
     placeholderStyle: {
       background: "linear-gradient(135deg, #0f766e 0%, #0891b2 50%, #6366f1 100%)",
     },
+    href: "/projects/customer-support",
   },
 ];
 

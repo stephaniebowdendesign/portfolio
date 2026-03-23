@@ -1,5 +1,5 @@
 import { ProjectCard } from "@design-system";
-import styles from "../projects.module.css";
+import styles from "../../projects.module.css";
 
 const AI_PROJECTS = [
   {

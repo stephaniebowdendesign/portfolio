@@ -1,0 +1,24 @@
+.page {
+  min-height: calc(100vh - var(--navbar-height));
+  padding: 4rem;
+  background: var(--bg);
+  transition: background 0.3s;
+}
+
+.title {
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
+}
+
+.description {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  max-width: 640px;
+  line-height: 1.7;
+}
+
+@media (max-width: 580px) {
+  .page {
+    padding: 2rem 1.5rem;
+  }
+}
